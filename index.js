@@ -8,7 +8,7 @@ function distanceFromHqInBlocks(location) {
     default:
       result = 42 - location;
   }
-  
+  return result;
 }
 
 function distanceFromHqInFeet() {
