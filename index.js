@@ -31,4 +31,5 @@ function calculatesFarePrice(start, destination) {
       result = 0;
       break;
   }
+  return result;
 }
