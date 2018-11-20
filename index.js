@@ -2,7 +2,7 @@
 function distanceFromHqInBlocks(location) {
   let result;
   switch (location) {
-    case location > 42:
+    case (location > 42):
       result = location - 42;
       break;
     default:
