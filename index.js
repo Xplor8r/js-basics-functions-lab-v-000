@@ -13,7 +13,8 @@ function distanceFromHqInFeet(location) {
 
 function distanceTravelledInFeet(start, destination) {
   let result;
-    (start > destination) ? result = (start - destination)  * 264 : result =  (destination - start) * 264;
+    start > destination ? result = (start - destination)  * 264 : result =  (destination - start) * 264;
+  return result;
 }
 
 function calculatesFarePrice(start, destination) {
