@@ -6,7 +6,7 @@ function distanceFromHqInBlocks(location) {
 }
 
 function distanceFromHqInFeet(location) {
- let toFeet = location * 10;
+ let toFeet = location * 8;
  return distanceFromHqInBlocks(toFeet);
 }
 
