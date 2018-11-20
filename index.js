@@ -1,8 +1,7 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(distance) {
-  if (distance === 1) {
-    return "#{distance} block";
-  }
+function distanceFromHqInBlocks(location) {
+  return location - 42;
+
 }
 
 function distanceFromHqInFeet() {
