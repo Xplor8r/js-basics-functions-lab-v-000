@@ -1,6 +1,7 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
-  
+function distanceFromHqInBlocks(distance) {
+  distance = 1;
+
 }
 
 function distanceFromHqInFeet() {
