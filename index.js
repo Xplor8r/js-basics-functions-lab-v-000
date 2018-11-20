@@ -6,8 +6,9 @@ function distanceFromHqInBlocks(location) {
 }
 
 function distanceFromHqInFeet(location) {
- let toFeet = location * 6;
- return distanceFromHqInBlocks(toFeet);
+  let feet = distanceFromHqInBlocks(location);
+  let result = feet * 12;
+  return result;
 }
 
 function distanceTravelledInFeet() {
