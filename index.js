@@ -12,7 +12,8 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(start, destination) {
-  
+  let result;
+    start > destination ? result = start - destination: result =  destination - start;
 }
 
 function calculatesFarePrice(start, destination) {
