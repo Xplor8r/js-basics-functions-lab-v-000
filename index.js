@@ -23,7 +23,7 @@ function calculatesFarePrice(start, destination) {
   if (feet > 2500) {
       result = 'cannot travel that far';
   } else if (feet > 400 && feet <2000) {
-      result = Math.floor(feet * 0.02) - Math.floor(400 * 0.02);
+      result = 0.02 * (feet - 400)
   } else if (feet < 400) {
       result = 0;
   }
