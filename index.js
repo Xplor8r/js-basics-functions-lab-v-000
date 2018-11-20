@@ -1,12 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location) {
   let result;
-  switch (location) {
-    case (location < 42):
-      result = location - 42;
-      break;
-
-  }
+    location > 42 ? result = location - 42: result = location - 42;
   return result;
 }
 
