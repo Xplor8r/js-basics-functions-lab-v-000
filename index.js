@@ -29,6 +29,6 @@ function calculatesFarePrice(start, destination) {
       break;
     default:
       result = 0;
+    return result;
   }
-  return result;
 }
