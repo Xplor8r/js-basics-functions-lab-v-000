@@ -27,8 +27,8 @@ function calculatesFarePrice(start, destination) {
     case feet > 400 && feet <2000:
       result = (feet * 0.02) -400;
       break;
-    default:
+    case feet < 400:
       result = 0;
-    return result;
+      break;
   }
 }
